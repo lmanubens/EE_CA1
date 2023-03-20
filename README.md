@@ -80,6 +80,12 @@ In all cases it should install in about 20 seconds.
 
 # Installation Guide
 
+## T2N modeling installation
+
+Users should install NEURON and T2N following the documentation available at: [https://github.com/MarcelBeining/T2N](https://github.com/MarcelBeining/T2N)
+
+## Shiny app installation
+
 ### Package dependencies
 
 Users should install the following packages prior to running the Shiny app, from an `R` terminal:
