@@ -133,3 +133,19 @@ From an `R` session in the EE_CA1/shiny_app folder, type:
 library(shiny)
 runApp()
 ```
+
+# Demo
+
+## T2N modeling scripts
+
+
+## Ready-to-use Shiny web app
+
+For interactive usage of the web app please check:
+
+```
+https://linusmg.shinyapps.io/EE_TgDyrk1A/
+```
+The tabs allow users to choose specific sets of analyses of interest.
+The checklists in the top of the web app allow the users to choose specific metrics and data subsets of interest respectively.
+Each plot should be generated in a few seconds.
