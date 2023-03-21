@@ -163,3 +163,8 @@ https://linusmg.shinyapps.io/EE_TgDyrk1A/
 The tabs allow users to choose specific sets of analyses of interest.
 The checklists in the top of the web app allow the users to choose specific metrics and data subsets of interest respectively.
 Each plot should be generated in a few seconds.
+
+
+# Citation
+
+If you use this code or data we kindly ask that you please cite [Manubens-Gil et al, 2023](https://www.biorxiv.org/content/10.1101/2023.03.09.531874v1). 
