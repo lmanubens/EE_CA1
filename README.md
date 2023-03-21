@@ -145,6 +145,7 @@ The script takes about 4 seconds.
 
 ### Input-output frequencies
 To obtain input-output frequency curves, run the command "export MATLAB_SHELL=/bin/bash", or equivalent, from a terminal. Then run Matlab from terminal and run the script 'freqinout_stimregion_BC.m' from the folder EE_CA1/model. Different sections can be run separately to account for synaptic densities or only dendritic morphological features, and for input to Stratum Radiatum alone or both Stratum Radiatum and Lacunosum. The results are saved in a file called "freqinout_stimregion_BC.csv".
+
 Running each set of simulations takes about 20 minutes using 8 parallel workers.
 
 ## Ready-to-use Shiny web app
