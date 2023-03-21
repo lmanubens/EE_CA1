@@ -22,33 +22,34 @@ shinyUI(pageWithSidebar(
                          selectInput("variablemet", "Choose Metric","",selected="variablemet",width='100%'),
                          plotOutput("metric",height = "600px", width = "100%"),
                          downloadLink("downloadPlot", "Download Plot"),
-                         fluidRow(
-                           column(width = 12, 
-                                  h3('Statistics'),  
-                                  # tableOutput("table")
-                           ))
+                         # fluidRow(
+                         #   column(width = 12, 
+                         #          h3('Statistics'),  
+                         #          # tableOutput("table")
+                         #   ))
                          ),
                 tabPanel("Layer Width",
                          selectInput("variablecomp", "Choose Comparison","",selected="variablecomp",width='100%'),
                          selectInput("variablesubl", "Choose Sublayer","",selected="variablesubl",width='100%'),
                          plotOutput("width",height = "600px", width = "100%"),
                          downloadLink("downloadPlot4", "Download Plot"),
-                         fluidRow(
-                           column(width = 12, 
-                                  h3('Statistics'),  
-                                  # tableOutput("tablewidth")
-                           ))
+                         # fluidRow(
+                         #   column(width = 12, 
+                         #          h3('Statistics'),  
+                         #          # tableOutput("tablewidth")
+                         #   ))
                          ),
                 tabPanel("Reconstructions",
                          selectInput("variablecomp3", "Choose Comparison","",selected="variablecomp2",width='100%'),
                          selectInput("variablerecmet", "Choose Metric","",selected="variablemet",width='100%'),
                          plotOutput("recmet",height = "600px", width = "100%"),
                          downloadLink("downloadPlot2", "Download Plot"),
-                         fluidRow(
-                           column(width = 12, 
-                                  h3('Statistics'),  
-                                  # tableOutput("tablerec")
-                           )),
+                         # fluidRow(
+                         #   column(width = 12, 
+                         #          h3('Statistics'),  
+                         #          # tableOutput("tablerec")
+                           # )
+                         # ),
                          plotOutput("projections",height = "600px", width = "100%")
                 ),
                 tabPanel("Sholl Analysis",  
@@ -60,7 +61,7 @@ shinyUI(pageWithSidebar(
                 tabPanel("Input Output frequency", 
                          selectInput("variableinoutgroup", "Choose comparison","",selected="variableinoutgroup",width='100%'),
                          selectInput("variableinoutregion", "Choose input region","",selected="variableinoutregion",width='100%'),
-                         plotlyOutput("freqinout",height = "900px", width = "100%"),
+                         plotOutput("freqinout",height = "900px", width = "100%"),
                          downloadLink("downloadPlot5", "Download Plot")),
                 tabPanel("LTP electrophysiology",
                          selectInput("variablecomp4", "Choose Comparison","",selected="variablecomp4",width='100%'),

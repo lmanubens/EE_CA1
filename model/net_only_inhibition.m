@@ -1,11 +1,8 @@
 %% *T2N simulations*
 
 % Let's load first the trees to be simulated
-wttrees = load_tree('wt_aligned.mtr');%{sample_tree};   % load sample tree
-tgtrees = load_tree('tg_aligned.mtr');
-% this tree has no soma region yet, so it is perfectly suitable to show you
-% how new regions can be defined in TREES toolbox. 
-% just make the first two nodes from the root "somatic"
+wttrees = load_tree('../data/mtrs/wt_aligned.mtr');%{sample_tree};   % load sample tree
+tgtrees = load_tree('../data/mtrs/tg_aligned.mtr');
 % tree{1}.R(1:2) = 3;     % make the first two nodes a new region
 % tree{1}.rnames{3} = 'soma';   % name the region "soma"
 % tree{1}.D(1:2) = 10;        % increase diameter of the somatic nodes
@@ -20,14 +17,14 @@ synfact{1} = 1;
 synfact{2} = 1;
 
 % Let's load first the trees to be simulated
-wttrees = load_tree('wt_aligned.mtr');%{sample_tree};   % load sample tree
-tgtrees = load_tree('tg_aligned.mtr');
-wteetrees = load_tree('wtee_aligned.mtr');%{sample_tree};   % load sample tree
-tgeetrees = load_tree('tgee_aligned.mtr');
-wtnenetrees = load_tree('wtnene_aligned.mtr');%{sample_tree};   % load sample tree
-tgnenetrees = load_tree('tgnene_aligned.mtr');
-wteenetrees = load_tree('wteene_aligned.mtr');%{sample_tree};   % load sample tree
-tgeenetrees = load_tree('tgeene_aligned.mtr');
+wttrees = load_tree('../data/mtrs/wt_aligned.mtr');%{sample_tree};   % load sample tree
+tgtrees = load_tree('../data/mtrs/tg_aligned.mtr');
+wteetrees = load_tree('../data/mtrs/wtee_aligned.mtr');%{sample_tree};   % load sample tree
+tgeetrees = load_tree('../data/mtrs/tgee_aligned.mtr');
+wtnenetrees = load_tree('../data/mtrs/wtnene_aligned.mtr');%{sample_tree};   % load sample tree
+tgnenetrees = load_tree('../data/mtrs/tgnene_aligned.mtr');
+wteenetrees = load_tree('../data/mtrs/wteene_aligned.mtr');%{sample_tree};   % load sample tree
+tgeenetrees = load_tree('../data/mtrs/tgeene_aligned.mtr');
 % 
 % Mature/mushroom spines
 % wttrees = wttrees{1};
