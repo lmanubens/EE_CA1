@@ -26,10 +26,10 @@
 
 The Shiny app requires only a standard computer with enough RAM to support the operations defined by a user. The T2N simulation scripts can also be run in a standard computer. For minimal performance, this will be a computer with about 500 MB of RAM. For optimal performance, we recommend a computer with the following specs:
 
-RAM: 500+ MB  
+RAM: 1.5+ GB  
 CPU: single core, 1.6+ GHz
 
-The runtimes below are generated using a computer with the recommended specs (16 GB RAM, 4 cores@1.6 GHz) and internet of speed 25 Mbps.
+The runtimes below are generated using a computer with the recommended specs (16 GB RAM, 8 cores@2.3 GHz) and internet of speed 25 Mbps.
 
 ## Software Requirements
 
@@ -138,6 +138,14 @@ runApp()
 
 ## T2N modeling scripts
 
+### Connectivity repertoire
+
+To obtain connectivity repertoires, run the script 'connectivity_repertoires.m' from the folder EE_CA1/model, the results are saved in a file called "wiring_metrics.csv".
+The script takes about 4 seconds.
+
+### Input-output frequencies
+To obtain input-output frequency curves, run the command "export MATLAB_SHELL=/bin/bash", or equivalent, from a terminal. Then run Matlab from terminal and run the script 'freqinout_stimregion_BC.m' from the folder EE_CA1/model. Different sections can be run separately to account for synaptic densities or only dendritic morphological features, and for input to Stratum Radiatum alone or both Stratum Radiatum and Lacunosum. The results are saved in a file called "freqinout_stimregion_BC.csv".
+Running each set of simulations takes about 20 minutes using 8 parallel workers.
 
 ## Ready-to-use Shiny web app
 
