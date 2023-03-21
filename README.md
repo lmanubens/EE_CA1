@@ -148,6 +148,11 @@ To obtain input-output frequency curves, run the command "export MATLAB_SHELL=/b
 
 Running each set of simulations takes about 20 minutes using 8 parallel workers.
 
+### Power spectrum with inhibitory feedback
+To obtain power spectrums from the set of reconstructed neurons with inhibitory feedback, run the command "export MATLAB_SHELL=/bin/bash", or equivalent, from a terminal. Then run Matlab from terminal and run the script 'net_morph_and_inh.m' or 'net_only_inhibition' from the folder EE_CA1/model. In this case both Stratum Radiatum and Lacunosum are stimulated. The results are saved in a file called "pspectrum_x.csv".
+
+Running each set of simulations takes about 3 minutes using a single core.
+
 ## Ready-to-use Shiny web app
 
 For interactive usage of the web app please check:
