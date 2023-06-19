@@ -1,4 +1,4 @@
-# Analysis and modeling of CA1 pyramidal neurons for the article: Deficits in neuronal architecture but not over-inhibition are main determinants of reduced neuronal network activity in a mouse model of overexpression of Dyrk1A
+# Analysis and modeling of CA1 pyramidal neurons for the article: Deficits in neuronal architecture and their role in reduced neuronal network activity in a mouse model of overexpression of Dyrk1A
 
 
 <!--[![biorXiv shield](https://img.shields.io/badge/arXiv-1709.01233-red.svg?style=flat)](https://www.biorxiv.org/content/10.1101/2023.03.09.531874v1) -->
